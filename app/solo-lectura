@@ -1,0 +1,93 @@
+CONFIGURACION DEL ENTORNO Y PRODUCTOS DESTACADOS (TIENDA)
+--se crea el proyecto desde cero
+--elimina el page principal y crea una carpeta llamada routes y coloca el page dentro de ella
+--modifica el layout principal
+--crea una carpeta llamada components que es la principal
+--crea dentro de components un archivo llamado footers
+--se crea el archivo navbar dentro de components
+--crea una carpeta llamada ui dentro de la carpeta components y dentro un archivo llamado container
+--crea dentro de components un archivo llamado MainNav
+--crea una carpeta libs y entro un archivo utils
+--instala clsx npm i clsx tailwind-merge
+--crea un archivo llamado types.ts
+--crea un archivo .env
+--coloca en gitignore el .env (NO OLVIDARSE DE ESTO)
+-se coloca la url publica del proyecto admin que se encuentra en settings
+--crea una carpeta llamad actions y dentro un archivo llamado get-categories.tsx
+--dentro de components crea un archivo navbar actions 
+--en ui crea un button.tsx
+--se instala lucid-react
+--modifica el page que esta dentro de routes en app
+--dentro de components crea un archivo llamado billboard
+--en la carpeta actions crea un archivo llmado get-billboards.tsx
+--modifica types 
+--crea una carpeta llamada get-products
+--instala npm i query-string
+--modifica page es decir integra products en page
+--en la carpeta components  crea un archivo llamado 
+--en ui dentro de components crea un archivo llamado no-results.tsx
+--en ui crea un archivo llamado 
+--modifica el next-congif con cloudinary domains
+--crea en ui un archivo llamado 
+--crea en ui un archivo llamado currency.tsx
+
+
+INDIVIDUAL PRODUCT SCREEN
+
+--EN ROUTES dentro de app  se crea una carpeta llamada products, dentro se crea una arpeta [producId] y dentro un page 
+--en actions se crea un archivo llamado get-product.tsx
+-- en components se crea gallery una carpeta y un archivo llamado  index
+--importa npm i @headlessui/react
+--crea un archivo dentro de gallery llamado gallery-tab.tsx
+--en components se crea un archivo llamado 
+
+INDIVIDUAL CTEGORY SCREEN:
+
+--En routes dentro de app se crea una carpeta llamada category 
+--dentro e tegory se crea una carpeta [categoryId] y dentro un archivo llamado  page.tsx
+--en ations se coloca el archivo
+--se crea el archivo get-colors.tsx
+--se crea el archivo get-category.tsx
+--dentro de la carpeta [categoryId] se crea el archivo filter.tsx
+--dentro de components dentro de categoryid se crea un archivo llamado mobile-filters.tsx
+--se instala zustand
+--se crea una carpeta llamada hooks y dentro un archivo llamado  use-preview-modal.ts
+
+PREVIEW MODAL COMPONENTS:
+--en ui dentro de components se crea un archivo llamado modal.tsx
+--en la carpeta ui dentro de components se crea un archivo llamado preview-modal.tsx
+--crea una carpeta en la raiz llamada providers
+--dentro un archivo modal-provider.tsx
+--despues modifica el product-card
+--instala npm i react-hot-toast
+--en la carpeta provider se crea un archivo llamado toast-provider.tsx
+--se importa en el layout principal
+
+ADD TO CART FUNCTIONALITY (STORE):
+--en hooks crea un archivo llamado use-cart.ts
+--modifica navbar-ations y product-card
+--en app dentro de routes crea una carpeta llamada cart y entro un page.tsx
+--crea la carpeta components dentro de cart
+y un archivo llamado cart-item.tsx
+--se crea en la carpeta components un archivo llamado summary.tsx
+--instala npm i axios
+
+
+
+STRIPE SETUP Y CHECKOUT FINALIZATION (ADMIN. STORE)
+
+ESTO TAMBIEN SE HACE EN AMIN 
+
+-en lib crea una carpeta llamada stripe.ts
+
+--instala npm i stripe
+--crea una nueva cuenta con el nombre de el ecommerce y hay se encuentran las llaves de acceso 
+--se colocan en el .env del admin
+--se hace las modifiaciones en stripe.tsx
+--en stroeId dentro de api se crea una carpeta llamada checkout  y dentor un archivo route.ts 
+--se coloca en el .env la url del frontend = FORNTEND_STORE_URL 
+--se crea una carpeta llamaa webhook y dentro un archivo llamado route.ts
+
+--en el .env se coloca STRIPE_WEBHOOK_SECRET
+    
+QUEDAMOS EN EL MINUTO 8:22:15
